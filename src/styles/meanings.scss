@@ -1,0 +1,15 @@
+.typeOfWord {
+  margin: 0.5rem 0;
+  font-weight: 400;
+  font-family: "Cookie", cursive;
+  font-size: 2.5rem;
+  &::after {
+    height: 1px;
+    width: 100%;
+    border: solid 1px rgb(214, 33, 33);
+  }
+}
+
+ul {
+  margin-left: 1rem;
+}

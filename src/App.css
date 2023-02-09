@@ -1,0 +1,26 @@
+.App {
+    height: 100%;
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    font-size: clamp(.75rem, 4vw, 1.125rem);
+    transition: background-color 0.2s ease, color 0.2s ease;
+    background-color: white;
+}
+
+.App.dark {
+    background-color: #3c3c3c;
+    color: white;
+}
+
+.App.Serif {
+    font-family: 'Ubuntu', serif;
+}
+
+.App.Sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.App.Mono {
+    font-family: 'Space Mono', monospace;
+}
